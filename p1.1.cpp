@@ -21,7 +21,7 @@ int main()
     int eor2 = 0;
     for (size_t i = 0; i < vi.size(); ++i)
     {
-        if ((vi[i] & rightOne) == 1)
+        if ((vi[i] & rightOne) != 0)
             eor2 ^= vi[i];
     }
 
